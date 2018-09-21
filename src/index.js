@@ -12,7 +12,7 @@ require('./app/controllers/index')(app);
 
 const port = process.env.PORT || 3000;
     app.listen(port, (err) => {
-        if (err) return err 
+        if (err) return console.log('Erro') 
         return console.log('Listen in port 3000')
     });
 
